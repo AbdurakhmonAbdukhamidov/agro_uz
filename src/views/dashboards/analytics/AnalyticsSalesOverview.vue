@@ -2,12 +2,12 @@
   <VCard>
     <VCardText>
       <div class="d-flex align-center justify-space-between">
-        <span class="text-sm text-disabled">Sales Overview</span>
-        <span class="text-success">+18.2%</span>
+        <span class="text-sm text-disabled">oylik tushum</span>
+        <span class="text-success">2 000 000</span>
       </div>
       <h5 class="text-h5">
-        $42.5k
-      </h5>
+        100 000 000
+      </h5>   
     </VCardText>
 
     <VCardText>

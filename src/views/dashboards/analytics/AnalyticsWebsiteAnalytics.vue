@@ -6,68 +6,60 @@ import sliderBar3 from '@images/illustrations/sidebar-pic-3.png'
 
 const websiteAnalytics = [
   {
-    name: 'Traffic',
+    name: 'Hozirgi holat',
     slideImg: sliderBar1,
     data: [
       {
-        number: '1.5k',
-        text: 'Sessions',
+        number: '3',
+        text: 'Partiyalar',
       },
       {
-        number: '3.1k',
-        text: 'Page Views',
+        number: '8',
+        text: 'Hodimlar',
       },
       {
-        number: '1.2k',
-        text: 'Leads',
+        number: '1.680 k',
+        text: 'Ko`chatlar',
       },
       {
-        number: '12%',
-        text: 'Conversions',
+        number: '3',
+        text: 'o`simliklar turlari',
       },
     ],
   },
   {
-    name: 'Spending',
+    name: 'krim',
     slideImg: sliderBar2,
     data: [
       {
-        number: '12h',
-        text: 'Spend',
+        number: '1 m',
+        text: 'Sotilgan',
       },
       {
-        number: '182',
-        text: 'Order Size',
+        number: '200 000',
+        text: 'Foyda',
       },
       {
-        number: '127',
-        text: 'Order',
-      },
-      {
-        number: '23k',
-        text: 'Items',
+        number: '200',
+        text: 'buyurtmasi yopilgan mijozlar',
       },
     ],
   },
   {
-    name: 'Revenue Sources',
+    name: 'chiqim va yoqotishlar',
     slideImg: sliderBar3,
     data: [
       {
         number: '268',
-        text: 'Direct',
+        text: 'harajatlar',
       },
       {
         number: '890',
-        text: 'Organic',
+        text: 'Yoqotishlar',
       },
       {
         number: '622',
-        text: 'Referral',
-      },
-      {
-        number: '1.2k',
-        text: 'Campaign',
+        text: 'Soliq harajatlari',
       },
     ],
   },
@@ -93,11 +85,8 @@ const websiteAnalytics = [
           <VRow>
             <VCol cols="12">
               <h6 class="text-h6 text-white mb-1">
-                Website Analytics
+                Analytics
               </h6>
-              <p class="text-sm mb-0">
-                Total 28.5% Conversion Rate
-              </p>
             </VCol>
 
             <VCol

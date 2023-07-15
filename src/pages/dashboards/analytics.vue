@@ -83,6 +83,7 @@ const statisticsVertical = {
     >
       <AnalyticsWebsiteAnalytics />
     </VCol>
+  
 
     <!-- 👉 Sales Overview -->
     <VCol
