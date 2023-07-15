@@ -27,12 +27,12 @@
               />
             </VAvatar>
 
-            <span>Order</span>
+            <span>buyurtmalar</span>
           </div>
           <h6 class="text-h6">
-            62.2%
+            100 k
           </h6>
-          <span class="text-sm text-disabled">6,440</span>
+          <span class="text-sm text-disabled">12.1%</span>
         </VCol>
 
         <VCol cols="2">
@@ -60,7 +60,7 @@
           class="text-end"
         >
           <div class="d-flex align-center justify-end mb-3">
-            <span class="me-2">Visits</span>
+            <span class="me-2">Mijozlar</span>
 
             <VAvatar
               color="primary"
@@ -75,9 +75,9 @@
             </VAvatar>
           </div>
           <h6 class="text-h6">
-            25.5%
+            2.5 k
           </h6>
-          <span class="text-sm text-disabled">12,749</span>
+          <span class="text-sm text-disabled">-12.3%</span>
         </VCol>
       </VRow>
 
