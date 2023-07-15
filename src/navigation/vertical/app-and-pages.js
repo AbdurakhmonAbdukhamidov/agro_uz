@@ -1,16 +1,6 @@
 export default [
   { heading: 'Apps & Pages' },
   {
-    title: 'Email',
-    icon: { icon: 'tabler-mail' },
-    to: 'apps-email',
-  },
-  {
-    title: 'Chat',
-    icon: { icon: 'tabler-message' },
-    to: 'apps-chat',
-  },
-  {
     title: 'Calendar',
     icon: { icon: 'tabler-calendar' },
     to: 'apps-calendar',
