@@ -15,7 +15,7 @@ const vuetifyTheme = useTheme()
 const currentTheme = vuetifyTheme.current.value.colors
 
 const statisticsVertical = {
-  title: 'Revenue Generated',
+  title: 'oylik tushum',
   color: 'success',
   icon: 'tabler-credit-card',
   stats: '97.5k',
