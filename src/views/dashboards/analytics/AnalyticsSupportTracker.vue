@@ -11,7 +11,7 @@ const chartOptions = computed(() => {
   const variableTheme = vuetifyTheme.current.value.variables
   
   return {
-    labels: ['Completed Task'],
+    labels: ['Bajarilgan ishlar'],
     chart: { type: 'radialBar' },
     plotOptions: {
       radialBar: {
@@ -80,28 +80,21 @@ const supportTicket = [
   {
     avatarColor: 'primary',
     avatarIcon: 'tabler-ticket',
-    title: 'New Tickets',
+    title: 'Buyurtma qilingan ko`chatlar,',
     subtitle: '142',
   },
   {
     avatarColor: 'info',
     avatarIcon: 'tabler-circle-check',
-    title: 'Open Tickets',
+    title: 'Buyutmalar yopilgan',
     subtitle: '28',
-  },
-  {
-    avatarColor: 'warning',
-    avatarIcon: 'tabler-clock',
-    title: 'Response Time',
-    subtitle: '1 Day',
   },
 ]
 </script>
 
 <template>
   <VCard
-    title="Support Tracker"
-    subtitle="Last 7 Days"
+    title="Bajarilgan vazifalar"
   >
     <template #append>
       <div class="mt-n4 me-n2">
@@ -140,11 +133,8 @@ const supportTicket = [
         >
           <div class="mb-4">
             <h4 class="text-4xl font-weight-semibold mb-2">
-              164
+              Vazifalar
             </h4>
-            <p class="text-sm">
-              Total Tickets
-            </p>
           </div>
 
           <VList class="card-list">
