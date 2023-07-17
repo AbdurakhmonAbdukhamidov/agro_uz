@@ -4,20 +4,22 @@ export default{
   return {
      simpleStatisticsDemoCards: [
   {
-    icon: 'tabler-currency-dollar',
+    icon: 'noto:tomato',
     color: 'info',
     title: 'partiya 1',
     subTitle: 'pamidor',
     stat: '12.28k',
-    change: '1k',
+    change: '9.28k',
+    bought: '3k'
   },
   {
-    icon: 'tabler-chart-bar',
+    icon: 'noto:cucumber',
     color: 'info',
     title: 'partiya 2',
     subTitle: 'bodring',
     stat: '4.673k',
     change: '2k',
+    bought: '1k'
   },
 ]
   }
@@ -60,6 +62,13 @@ export default{
             label
           >
             {{ demo.change }}
+          </VChip>
+          <VChip
+            :color="demo.color"
+            label
+            style="margin-left: 4px;"
+          >
+            {{ demo.bought }}
           </VChip>
         </VCardText>
       </VCard>
