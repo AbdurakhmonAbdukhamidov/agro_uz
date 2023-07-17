@@ -101,21 +101,14 @@ const earningsReports = [
     amount: '$256.34',
     progress: '25',
   },
-  {
-    color: 'error',
-    icon: 'tabler-brand-paypal',
-    title: 'Expense',
-    amount: '$74.19',
-    progress: '65',
-  },
 ]
 </script>
 
 <template>
   <VCard>
     <VCardItem class="pb-sm-0">
-      <VCardTitle>Earning Reports</VCardTitle>
-      <VCardSubtitle>Weekly Earnings Overview</VCardSubtitle>
+      <VCardTitle>Krim hisoboti</VCardTitle>
+      <VCardSubtitle>haftalik hisobot</VCardSubtitle>
 
       <template #append>
         <div class="mt-n4 me-n2">
@@ -165,7 +158,7 @@ const earningsReports = [
           </div>
 
           <p class="text-sm">
-            You informed of this week compared to last week
+            ohrgi hafta hmaulotlari
           </p>
         </VCol>
 
