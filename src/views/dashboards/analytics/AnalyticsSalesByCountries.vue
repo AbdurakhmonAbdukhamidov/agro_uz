@@ -9,40 +9,41 @@ import usFlag from '@images/icons/countries/us.png'
 const salesByCountries = [
   {
     avatarImg: usFlag,
-    stats: '$8,567k',
-    subtitle: 'United states',
+    stats: '8,567k',
+    subtitle: 'Andijon',
     profitLoss: 25.8,
   },
   {
     avatarImg: brFlag,
-    stats: '$2,415k',
-    subtitle: 'Brazil',
+    stats: '2,415k',
+    subtitle: 'Namangan',
     profitLoss: -6.2,
   },
   {
     avatarImg: inFlag,
-    stats: '$865k',
-    subtitle: 'India',
+    stats: '865k',
+    subtitle: 'Farg`ona',
     profitLoss: 12.4,
   },
   {
     avatarImg: auFlag,
-    stats: '$745k',
-    subtitle: 'Australia',
+    stats: '745k',
+    subtitle: 'Sirdaryo',
     profitLoss: -11.9,
   },
   {
     avatarImg: frFlag,
-    stats: '$45',
-    subtitle: 'France',
+    stats: '45',
+    subtitle: 'Toshkent',
     profitLoss: 16.2,
   },
   {
     avatarImg: cnFlag,
-    stats: '$12k',
-    subtitle: 'China',
+    stats: '12k',
+    subtitle: 'Buhoro',
     profitLoss: 14.8,
   },
+  
 ]
 </script>
 
@@ -51,34 +52,6 @@ const salesByCountries = [
     title="Sales by Countries"
     subtitle="Monthly Sales Overview"
   >
-    <template #append>
-      <div class="mt-n4 me-n2">
-        <VBtn
-          icon
-          color="default"
-          size="x-small"
-          variant="plain"
-        >
-          <VIcon
-            size="22"
-            icon="tabler-dots-vertical"
-          />
-
-          <VMenu activator="parent">
-            <VList>
-              <VListItem
-                v-for="(item, index) in ['Refresh', 'Download', 'View All']"
-                :key="index"
-                :value="index"
-              >
-                <VListItemTitle>{{ item }}</VListItemTitle>
-              </VListItem>
-            </VList>
-          </VMenu>
-        </VBtn>
-      </div>
-    </template>
-
     <VCardText>
       <VList class="card-list">
         <VListItem
